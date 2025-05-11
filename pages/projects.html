@@ -3,11 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TZLT Iver - Kontakt</title>
+    <title>TZLT Iver - Projekti</title>
     <link rel="stylesheet" href="../index.css" />
     <style>
       .projects-container {
         margin: 1rem auto;
+      }
+
+      .project {
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+
+      .project:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+        cursor: pointer;
+        transition: all 0.3s ease;
       }
 
       .project__title {
@@ -23,9 +34,9 @@
           <div class="logo__nav"></div>
         </a>
         <ul class="flex gap">
-          <li><a href="">O nama</a></li>
+          <li><a href="../pages/about.html">O nama</a></li>
           <li><a href="">Projekti</a></li>
-          <li><a href="">Proces</a></li>
+          <li><a href="../pages/process.html">Proces</a></li>
           <li><a href="../pages/contact.html">Kontakt</a></li>
         </ul>
       </nav>
@@ -41,7 +52,7 @@
             alt=""
           />
           <span class="project__title">Project 1</span>
-          <p>This is a short project description</p>
+          <p class="mb">This is a short project description</p>
         </div>
         <div class="project flex-column align-center">
           <img
@@ -51,7 +62,7 @@
             alt=""
           />
           <span class="project__title">Project 2</span>
-          <p>This is a short project description</p>
+          <p class="mb">This is a short project description</p>
         </div>
         <div class="project flex-column align-center">
           <img
@@ -61,7 +72,7 @@
             alt=""
           />
           <span class="project__title">Project 3</span>
-          <p>This is a short project description</p>
+          <p class="mb">This is a short project description</p>
         </div>
         <div class="project flex-column align-center">
           <img
@@ -71,7 +82,7 @@
             alt=""
           />
           <span class="project__title">Project 4</span>
-          <p>This is a short project description</p>
+          <p class="mb">This is a short project description</p>
         </div>
         <div class="project flex-column align-center">
           <img
@@ -81,7 +92,7 @@
             alt=""
           />
           <span class="project__title">Project 5</span>
-          <p>This is a short project description</p>
+          <p class="mb">This is a short project description</p>
         </div>
         <div class="project flex-column align-center">
           <img
@@ -91,7 +102,7 @@
             alt=""
           />
           <span class="project__title">Project 6</span>
-          <p>This is a short project description</p>
+          <p class="mb">This is a short project description</p>
         </div>
       </div>
     </main>

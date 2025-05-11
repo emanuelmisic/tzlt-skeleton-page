@@ -18,6 +18,10 @@
 }
 
 /* Sizing */
+.mb {
+  margin-bottom: var(--default-spacing);
+}
+
 .px {
   padding: 0 var(--default-spacing);
 }
