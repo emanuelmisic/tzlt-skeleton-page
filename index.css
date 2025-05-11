@@ -63,7 +63,7 @@
 .logo__nav {
   width: 6rem;
   height: 6rem;
-  background-image: url("/assets/logo/877515a6-1379-4f46-863f-19de33d4b474.svg");
+  background-image: url("assets/logo/877515a6-1379-4f46-863f-19de33d4b474.svg");
   background-size: cover;
 }
 
@@ -74,7 +74,7 @@
 .logo__home {
   width: 20rem;
   height: 20rem;
-  background-image: url("/assets/logo/78a7ba0d-5137-4f87-9097-449c786e82eb.svg");
+  background-image: url("assets/logo/78a7ba0d-5137-4f87-9097-449c786e82eb.svg");
   background-size: cover;
   margin: auto;
 }
