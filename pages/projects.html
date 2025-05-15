@@ -6,24 +6,10 @@
     <title>TZLT Iver - Projekti</title>
     <link rel="stylesheet" href="../index.css" />
     <style>
-      .projects-container {
-        margin: 1rem auto;
-      }
-
-      .project {
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-      }
-
-      .project:hover {
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
-        cursor: pointer;
-        transition: all 0.3s ease;
-      }
-
-      .project__title {
-        font-size: 1.3rem;
-        font-weight: bold;
+      @import url("../index.css");
+      nav {
+        width: 100%;
+        height: var(--nav-height);
       }
     </style>
   </head>
@@ -34,78 +20,11 @@
           <div class="logo__nav"></div>
         </a>
         <ul class="flex gap">
-          <li><a href="../pages/about.html">O nama</a></li>
-          <li><a href="">Projekti</a></li>
-          <li><a href="../pages/process.html">Proces</a></li>
-          <li><a href="../pages/contact.html">Kontakt</a></li>
+          <li><a href="about.html">O nama</a></li>
+          <li><a href="projects.html">Projekti</a></li>
+          <li><a href="contact.html">Kontakt</a></li>
         </ul>
       </nav>
     </header>
-    <main class="flex-column align-center">
-      <h1>Projekti</h1>
-      <div class="projects-container flex-wrap gap align-center justify-center">
-        <div class="project flex-column align-center">
-          <img
-            width="300"
-            height="300"
-            src="../assets/logo/78a7ba0d-5137-4f87-9097-449c786e82eb.svg"
-            alt=""
-          />
-          <span class="project__title">Project 1</span>
-          <p class="mb">This is a short project description</p>
-        </div>
-        <div class="project flex-column align-center">
-          <img
-            width="300"
-            height="300"
-            src="../assets/logo/78a7ba0d-5137-4f87-9097-449c786e82eb.svg"
-            alt=""
-          />
-          <span class="project__title">Project 2</span>
-          <p class="mb">This is a short project description</p>
-        </div>
-        <div class="project flex-column align-center">
-          <img
-            width="300"
-            height="300"
-            src="../assets/logo/78a7ba0d-5137-4f87-9097-449c786e82eb.svg"
-            alt=""
-          />
-          <span class="project__title">Project 3</span>
-          <p class="mb">This is a short project description</p>
-        </div>
-        <div class="project flex-column align-center">
-          <img
-            width="300"
-            height="300"
-            src="../assets/logo/78a7ba0d-5137-4f87-9097-449c786e82eb.svg"
-            alt=""
-          />
-          <span class="project__title">Project 4</span>
-          <p class="mb">This is a short project description</p>
-        </div>
-        <div class="project flex-column align-center">
-          <img
-            width="300"
-            height="300"
-            src="../assets/logo/78a7ba0d-5137-4f87-9097-449c786e82eb.svg"
-            alt=""
-          />
-          <span class="project__title">Project 5</span>
-          <p class="mb">This is a short project description</p>
-        </div>
-        <div class="project flex-column align-center">
-          <img
-            width="300"
-            height="300"
-            src="../assets/logo/78a7ba0d-5137-4f87-9097-449c786e82eb.svg"
-            alt=""
-          />
-          <span class="project__title">Project 6</span>
-          <p class="mb">This is a short project description</p>
-        </div>
-      </div>
-    </main>
-    <footer>Copyright itd.</footer>
   </body>
 </html>
