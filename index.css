@@ -24,6 +24,10 @@ body {
   margin-bottom: var(--default-spacing);
 }
 
+.mt {
+  margin-top: var(--default-spacing);
+}
+
 .px {
   padding: 0 var(--default-spacing);
 }
@@ -86,13 +90,24 @@ body {
 
 nav {
   color: var(--primary);
-  background-color: white;
+  /* background-color: white; */
 }
 
-nav > ul {
+ul {
   padding: 0;
 }
 
-nav > ul > li {
+nav > ul > li,
+main > ul > li {
   list-style-type: none;
+}
+
+ul > li > a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+ul > li:hover {
+  transform: scale(1.05);
+  transition: transform 0.1s ease;
 }
