@@ -12,9 +12,13 @@
         height: var(--nav-height);
       }
 
-      p {
+      main > section {
+        height: calc(100vh - var(--nav-height));
+        padding: 8rem 35rem 0 10rem;
+      }
+
+      main p {
         font-size: 1.5rem;
-        margin: 8rem 35rem 0 10rem;
       }
 
       u {
@@ -36,12 +40,23 @@
       </nav>
     </header>
     <main>
-      <p>
-        Design studio <u>GamFratesi</u> looked to historic Greek vases when
-        creating the interior of Epicurus, a restaurant and a jazz club in
-        <u>Copenhagen</u>, which features smoked oak wood inlays and custom-made
-        lighting.
-      </p>
+      <section>
+        <p>
+          Design studio <u>GamFratesi</u> looked to historic Greek vases when
+          creating the interior of Epicurus, a restaurant and a jazz club in
+          <u>Copenhagen</u>, which features smoked oak wood inlays and
+          custom-made lighting.
+        </p>
+      </section>
     </main>
+    <footer class="flex">
+      <div class="logo__nav"></div>
+      <div class="flex-column gap mt">
+        <p>TZLT IVER j.d.o.o.</p>
+        <p>Bartolci 63, Okuje, 10410 Velika Gorica, Zagreb</p>
+        <p>+385 95 2666 025</p>
+        <p>info@tzlt-iver.hr</p>
+      </div>
+    </footer>
   </body>
 </html>

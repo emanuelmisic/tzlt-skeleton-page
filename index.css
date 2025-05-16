@@ -7,6 +7,7 @@
 
   --default-spacing: 1rem;
   --nav-height: 8rem;
+  --foot-height: 10rem;
 }
 
 * {
@@ -26,6 +27,11 @@ body {
 
 .mt {
   margin-top: var(--default-spacing);
+}
+
+.my {
+  margin-top: var(--default-spacing);
+  margin-bottom: var(--default-spacing);
 }
 
 .px {
@@ -110,4 +116,9 @@ ul > li > a {
 ul > li:hover {
   transform: scale(1.05);
   transition: transform 0.1s ease;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.35);
+  height: var(--foot-height);
 }

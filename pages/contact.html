@@ -11,6 +11,10 @@
         width: 100%;
         height: var(--nav-height);
       }
+
+      main > section {
+        height: calc(100vh - var(--nav-height));
+      }
     </style>
   </head>
   <body>
@@ -27,11 +31,22 @@
       </nav>
     </header>
     <main>
-      <h1>Kontakt</h1>
-      <p>TZLT Iver j.d.o.o.</p>
-      <p>Bartolci 63, Okuje, 10410 Velika Gorica, Zagreb</p>
-      <p>+385 95 2666 025</p>
-      <p>info@tzlt-iver.hr</p>
+      <section>
+        <h1>Kontakt</h1>
+        <p>TZLT IVER j.d.o.o.</p>
+        <p>Bartolci 63, Okuje, 10410 Velika Gorica, Zagreb</p>
+        <p>+385 95 2666 025</p>
+        <p>info@tzlt-iver.hr</p>
+      </section>
     </main>
+    <footer class="flex">
+      <div class="logo__nav"></div>
+      <div class="flex-column gap mt">
+        <p>TZLT IVER j.d.o.o.</p>
+        <p>Bartolci 63, Okuje, 10410 Velika Gorica, Zagreb</p>
+        <p>+385 95 2666 025</p>
+        <p>info@tzlt-iver.hr</p>
+      </div>
+    </footer>
   </body>
 </html>
