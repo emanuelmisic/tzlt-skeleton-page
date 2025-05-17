@@ -15,6 +15,11 @@
       main > section {
         height: calc(100vh - var(--nav-height));
       }
+
+      main > section > div > p {
+        font-size: 1.2rem;
+        color: var(--primary);
+      }
     </style>
   </head>
   <body>
@@ -32,11 +37,13 @@
     </header>
     <main>
       <section>
-        <h1>Kontakt</h1>
-        <p>TZLT IVER j.d.o.o.</p>
-        <p>Bartolci 63, Okuje, 10410 Velika Gorica, Zagreb</p>
-        <p>+385 95 2666 025</p>
-        <p>info@tzlt-iver.hr</p>
+        <h1 class="ml-2">Kontakt</h1>
+        <div class="flex-column gap mt ml-2">
+          <p>TZLT IVER j.d.o.o.</p>
+          <p>Bartolci 63, Okuje, 10410 Velika Gorica, Zagreb</p>
+          <p>+385 95 2666 025</p>
+          <p>info@tzlt-iver.hr</p>
+        </div>
       </section>
     </main>
     <footer class="flex">

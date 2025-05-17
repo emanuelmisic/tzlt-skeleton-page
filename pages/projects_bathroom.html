@@ -12,6 +12,10 @@
         height: var(--nav-height);
       }
 
+      main > section {
+        min-height: calc(100vh - var(--nav-height));
+      }
+
       img {
         width: 25rem;
         height: 30rem;
@@ -32,26 +36,37 @@
       </nav>
     </header>
     <main>
-      <h1>Projekti</h1>
-      <ul class="flex gap mt">
-        <li><a href="projects_kitchen.html">Kuhinje</a></li>
-        <li><a href="projects_bedroom.html">Spavace sobe</a></li>
-        <p>Kupaone</p>
-      </ul>
-      <section class="flex-wrap gap-4 justify-center mt">
-        <img
-          src="../assets/img/15979b4be588b61998fd72b33981a57f4f7fe3c6.jpg"
-          alt=""
-        />
-        <img
-          src="../assets/img/15979b4be588b61998fd72b33981a57f4f7fe3c6.jpg"
-          alt=""
-        />
-        <img
-          src="../assets/img/15979b4be588b61998fd72b33981a57f4f7fe3c6.jpg"
-          alt=""
-        />
+      <section>
+        <h1 class="ml-2">Projekti</h1>
+        <ul class="flex gap mt ml-2">
+          <li><a href="projects_kitchen.html">Kuhinje</a></li>
+          <li><a href="projects_bedroom.html">Spavace sobe</a></li>
+          <p>Kupaone</p>
+        </ul>
+        <div class="flex-wrap gap-4 justify-center my">
+          <img
+            src="../assets/img/15979b4be588b61998fd72b33981a57f4f7fe3c6.jpg"
+            alt=""
+          />
+          <img
+            src="../assets/img/15979b4be588b61998fd72b33981a57f4f7fe3c6.jpg"
+            alt=""
+          />
+          <img
+            src="../assets/img/15979b4be588b61998fd72b33981a57f4f7fe3c6.jpg"
+            alt=""
+          />
+        </div>
       </section>
     </main>
+    <footer class="flex">
+      <div class="logo__nav"></div>
+      <div class="flex-column gap mt">
+        <p>TZLT IVER j.d.o.o.</p>
+        <p>Bartolci 63, Okuje, 10410 Velika Gorica, Zagreb</p>
+        <p>+385 95 2666 025</p>
+        <p>info@tzlt-iver.hr</p>
+      </div>
+    </footer>
   </body>
 </html>
