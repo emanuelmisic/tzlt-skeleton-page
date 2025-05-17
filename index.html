@@ -6,32 +6,71 @@
     <title>TZLT Iver</title>
     <link rel="stylesheet" href="index.css" />
     <style>
-      main > p {
-        margin: 0 20rem;
+      body {
+        display: grid;
+        grid-template-areas:
+          "header main"
+          "footer footer";
+      }
+
+      header {
+        grid-area: header;
+        height: 100vh;
+      }
+
+      nav {
+        height: 100vh;
+      }
+
+      ul {
+        margin-bottom: 10rem;
+      }
+
+      nav > ul > li {
+        font-size: 1.2rem;
+      }
+
+      main {
+        grid-area: main;
+        width: 100%;
+        height: 100vh;
+      }
+
+      main > img {
+        width: 100%;
+        height: 100vh;
+      }
+
+      footer {
+        grid-area: footer;
       }
     </style>
   </head>
   <body>
     <header>
-      <nav class="flex-space-between align-center px">
-        <div class="logo__nav"></div>
-        <ul class="flex gap">
+      <nav class="flex-column flex-space-between align-center">
+        <div class="logo__home"></div>
+        <ul class="flex-column gap">
           <li><a href="pages/about.html">O nama</a></li>
           <li><a href="pages/projects.html">Projekti</a></li>
-          <li><a href="pages/process.html">Proces</a></li>
           <li><a href="pages/contact.html">Kontakt</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <div class="logo__home"></div>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
-        nemo architecto veniam adipisci ex officia, voluptas optio nostrum,
-        alias quod nobis iusto magnam? Id eveniet consectetur est possimus
-        asperiores rem?
-      </p>
+      <img
+        src="/assets/img/ece86f9a3924128c041ce1f07b89722b7ac2f17f.jpg"
+        alt=""
+      />
     </main>
-    <footer>Copyright itd.</footer>
+    <footer class="flex">
+      <div class="logo__nav"></div>
+      <div class="flex-column gap mt">
+        <p>TZLT IVER j.d.o.o.</p>
+        <p>Bartolci 63, Okuje, 10410 Velika Gorica, Zagreb</p>
+        <p>+385 95 2666 025</p>
+        <p>info@tzlt-iver.hr</p>
+      </div>
+    </footer>
   </body>
 </html>

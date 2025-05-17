@@ -16,24 +16,9 @@
         min-height: calc(100vh - var(--nav-height));
       }
 
-      .project-category-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+      img {
         width: 25rem;
-        height: 20rem;
-      }
-
-      .project-category-container a,
-      .project-category-container img {
-        width: 100%;
-        height: 95%;
-        object-fit: cover;
-      }
-
-      .project-category-container img:hover {
-        transform: scale(1.025);
-        transition: transform 0.2s ease;
+        height: 30rem;
       }
     </style>
   </head>
@@ -53,34 +38,24 @@
     <main>
       <section>
         <h1 class="ml-2">Projekti</h1>
+        <ul class="flex gap mt ml-2">
+          <li><a href="projects_kitchen.html">Kuhinje</a></li>
+          <li><a href="projects_bedroom.html">Spavace sobe</a></li>
+          <p>Kupaone</p>
+        </ul>
         <div class="flex-wrap gap-4 justify-center my">
-          <div class="project-category-container">
-            <a href="projects_kitchen.html">
-              <img
-                src="../assets/img/ece86f9a3924128c041ce1f07b89722b7ac2f17f.jpg"
-                alt=""
-              />
-            </a>
-            <p>Kuhinje</p>
-          </div>
-          <div class="project-category-container">
-            <a href="projects_bedroom.html">
-              <img
-                src="../assets/img/561a1128fd413036e58ed268af0609978545b102.jpg"
-                alt=""
-              />
-            </a>
-            <p>Spavace sobe</p>
-          </div>
-          <div class="project-category-container">
-            <a href="projects_bathroom.html">
-              <img
-                src="../assets/img/15979b4be588b61998fd72b33981a57f4f7fe3c6.jpg"
-                alt=""
-              />
-            </a>
-            <p>Kupaone</p>
-          </div>
+          <img
+            src="../assets/img/15979b4be588b61998fd72b33981a57f4f7fe3c6.jpg"
+            alt=""
+          />
+          <img
+            src="../assets/img/15979b4be588b61998fd72b33981a57f4f7fe3c6.jpg"
+            alt=""
+          />
+          <img
+            src="../assets/img/15979b4be588b61998fd72b33981a57f4f7fe3c6.jpg"
+            alt=""
+          />
         </div>
       </section>
     </main>
